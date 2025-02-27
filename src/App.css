@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  font-family:  "Montserrat", serif;
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #11032E;
+}
+
+div.nav{
+  display: flex;
+  margin-left: 7%;
+  position: relative;
+  top: 30px;
+  
+}
+
+
+
+
+div.linkcont{
+  position: absolute;
+  left: 20%;
+  top: 11px;
+}
+
+h1.head{
+  color: white;
+  font-size: 29px;
+ 
+
+}
+
+
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  margin-left: 45px;
+}
+
+div.icons{
+  position: absolute;
+  left: 85%;
+  top: 10px;
+}
+
+img.iconimg{
+  width: 30px;
+  height: 30px;
+  object-fit: cover ;
+  margin-left: 8px;
+}
+
+
+div.landingpage{
+  position: relative;
+  top: 154px;
+  
+}
+div.landtext{
+  position: relative;
+  top: 40px;
+  left: -50%;
+}
+h1{
+  color: white;
+  margin-top: 12px;
+}
+
+p.landp{
+  color: rgb(184, 174, 174);
+  font-size: 18px;
+  font-style: italic;
+}
+
+p.typer{
+  color: rgb(0, 41, 226);
+  position: relative;
+  top: 30px;
+  font-size: 12px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+div.buttoncon{
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -50%;
+}
+
+
+div.but1{
+  border: 1px solid #EAEAEA;
+  border-radius: 7px;
+}
+
+div.but2{
+  background-color: #0F45CE;
+
+  border-radius: 7px;
+  margin-left: 20px;
+}
+
+div.buttoncon{
+  position: relative;
+  top: 120px;
+}
+
+p.but1p{
+  font-size: 15px;
+  padding: 15px;
+  color: white;
+  font-weight: bolder;
+  
+}
+
+p.but2p{
+  font-size: 15px;
+  padding: 15px;
+  color: white;
+  font-weight: bolder;
+}
+
+
+div.imgcont{
+ 
+  position: absolute;
+  left: 90%;
+  top: -50px;
+}
+
+img.landingimg{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+  left: 40%;
+}
+
+
+div.about{
+  position: relative;
+  top: 70px;
+}
+
+p.aboutp{
+  text-align: center;
+  color: rgb(172, 166, 166);
+  font-size: 14px;
+}
+
+h1.abouh{
+  color: #1164E0;
+  text-align: center;
+}
+
+
+div.section{
+  position: relative;
+left: -10%;
+  top: 53px;
+  display: flex;
+}
+
+p.sectionp{
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  width: 500px;
+  position: relative;
+  left: 180px;
+  top: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+div.button{
+  position: relative;
+  margin-left: 76%;
+  background-color: #0F45CE;
+  width: 110px;
+  color: white;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 20px;
+  border-radius: 7px;
+}
+
+
+
+
+/* loading spinner */
+
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 45%;
+  height: 100vh; /* Full viewport height */
+}
+
+.spinner {
+  border: 8px solid #f3f3f3; /* Light gray border */
+  border-top: 8px solid #3498db; /* Blue color for the spinner */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite; /* Spin animation */
+}
+
+/* Keyframes for spinning animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
