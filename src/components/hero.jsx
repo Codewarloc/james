@@ -1,7 +1,7 @@
 import react from "react";
 
 
-import james from "../assets/images/james.png";
+import james from "../assets/images/port.png";
 
 import { TypeAnimation } from 'react-type-animation';
 
