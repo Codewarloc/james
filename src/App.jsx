@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from "react-router-dom";
 import Hero from "./components/hero";
 import About from "./components/about";
+import Experience from "./components/experience";
 import LoadingSpinner from './components/loadingspinner';
 import './App.css';
 import git from "./assets/images/git.png";
@@ -30,6 +31,7 @@ const Content = () => {
     <Routes>
       <Route path="/" element={<Hero />} />
       <Route path="/about" element={<About />} />
+      <Route path="/experience" element={<Experience />} />
       {/* Add additional routes as needed */}
       <Route path="*" element={<div>Page Not Found</div>} />
     </Routes>

@@ -1,5 +1,7 @@
 import react from "react";
 import img from "../assets/images/aboutimg.png"
+import project from "../assets/images/project.png"
+import achieve from "../assets/images/achieve.png"
 
 const About = () => {
     return ( 
@@ -22,7 +24,40 @@ const About = () => {
 
         <div className="button">Lets talk</div>
 
+        <div className="achieve">
+            <div className="box">
+           <div className="boxitem">
+           <img src={achieve} alt="" className="icon" />
+            <h1 className="achievh1">Experience</h1>
+            <p className="achievep">1 year experience</p>
+           </div>
+            </div>
+            <div className="box">
+               <div className="boxitem">
+               <img src={project} alt="" className="icon" id="small"/>
+                <h1 className="achievh1">Projects</h1>
+                <p className="achievep">Over 20 projects completed</p>
+               </div>
+            </div>
+            <div className="box">
+           <div className="boxitem">
+           <img src={project} alt="" className="icon" id="small" />
+            <h1 className="achievh1">Projects</h1>
+            <p className="achievep">Over 20 projects completed</p>
+           </div>
+            </div>
+            <div className="box">
+           <div className="boxitem">
+           <img src={achieve} alt="" className="icon" />
+            <h1 className="achievh1">Experience</h1>
+            <p className="achievep">1 year experience</p>
+           </div>
+            </div>
         </div>
+
+        </div>
+
+        
 )}
  
 export default About;
